@@ -1,0 +1,110 @@
+body {
+    background-color: #9E85C7;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #727272;
+
+  }
+
+.container {
+    background-color: white;
+    width: 20%;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 50px 45px;
+    
+}
+
+h1, p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: #7E57BE;
+}
+
+h1 {
+    font-family: "Koulen", sans-serif;
+    color: #7E57BE;
+}
+
+form {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    }
+
+
+input, input::placeholder, textarea{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    border: none;  
+    color: #B5B5B5;
+}
+
+.additional-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.birthday {
+    flex-grow: 1;
+}
+
+.flavor {
+    flex-grow: 1;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #9E85C7;
+    border-radius: 20px;
+    display: block;
+    width: 60%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    height: 2em;
+    color: white;
+    margin-top: 15px;
+}
+
+ select, textarea {
+    width: 100%;
+    border-color: white;
+    font-size: 1rem;
+    color: #B5B5B5;
+}
+
+input[type="radio"] {
+    accent-color: #7E57BE;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+a {
+    color: #7E57BE;
+}
